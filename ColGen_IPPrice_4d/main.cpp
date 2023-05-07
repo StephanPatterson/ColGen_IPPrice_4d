@@ -45,6 +45,7 @@ int main(int argc, const char * argv[]) {
    bool namevars = 0;
    bool checkcolfordup = 0;
    //For going up to 4 dimensions, decide whether to shift locations for spots 3 & 4
+   //same = true will duplicate location1 to location3 and location2 to location4
    bool same = false;
 
    int NumMoMeas = 1;//Number of Months in a single Measure. Use 1 for original approach of each month is its own measure
